@@ -66,7 +66,7 @@ fetch("data.json") // Get data from json file
 
 ### Continued development
 
-This was the first time i used such a long media query. I'm trying to get better at responsive design. After this challenge, i will start to learn bootsrap and focus on responsive design even more. 
+This was the first time i used such a long media query. I'm trying to get better at responsive design. After this challenge, i will start to learn bootsrap and focus on responsive design even more. Also i failed to do all design with only grid. I used flexbox for the left column. I will be working on my grid skills.
 
 I will continue to learn new things in JS and practice my algorithm skills.
 
