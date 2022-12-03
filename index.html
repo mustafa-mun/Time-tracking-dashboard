@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- TODO: Do mobile responsive -->
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+  <main>
+      <section class="main-section-container">
+        <!--Main section -->
+        <div class="left-column-container">
+          <!-- Left column -->
+          <div class="left-column-inner" id="test">
+            <img class="jeremy-img" src="images/image-jeremy.png" alt="">
+            <div class="left-column-elements-container">
+              <p class="prv">Report for</p>
+              <p class="jeremy-text">Jeremy Robson</p>
+            </div>
+          </div>
+          <div class="pick-timeframe-container">
+            <p class="active-timeframe-text" id="daily">Daily</p>
+            <p class="passive-timeframe-text" id="weekly">Weekly</p>
+            <p class="passive-timeframe-text" id="monthly">Monthly</p>
+          </div>
+        </div>
+        <div class="grid">
+          <!-- Grid -->
+          <div class="grid-section" style="background-color:hsl(15, 100%, 70%) ;">
+            <div class="img-container">
+              <img class="inner-img" src="images/icon-work.svg" alt="">
+            </div>
+            <div class="inner-grid-section"></div>
+          </div>
+          <div class="grid-section" style="background-color:hsl(195, 74%, 62%) ;">
+            <div class="img-container">
+              <img class="inner-img" src="images/icon-play.svg" alt="">
+            </div>
+            <div class="inner-grid-section"></div>
+          </div>
+          <div class="grid-section" style="background-color:hsl(348, 100%, 68%)  ;">
+            <div class="img-container">
+              <img class="inner-img" src="images/icon-study.svg" alt="">
+            </div>
+            <div class="inner-grid-section"></div>
+          </div>
+          <div class="grid-section" style="background-color:hsl(145, 58%, 55%) ;">
+            <div class="img-container">
+              <img class="inner-img" src="images/icon-exercise.svg" alt="">
+            </div>
+            <div class="inner-grid-section"></div>
+          </div>
+          <div class="grid-section" style="background-color:hsl(264, 64%, 52%) ;">
+            <div class="img-container">
+              <img class="inner-img" src="images/icon-social.svg" alt="">
+            </div>
+            <div class="inner-grid-section"></div>
+          </div>
+          <div class="grid-section" style="background-color:hsl(43, 84%, 65%) ;">
+            <div class="img-container">
+              <img class="inner-img" src="images/icon-self-care.svg" alt="">
+            </div>
+            <div class="inner-grid-section"></div>
+          </div>
+        </div>
+      </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
